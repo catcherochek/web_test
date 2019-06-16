@@ -1,15 +1,19 @@
+
+@font-face {
+  font-family: 'Webfont';
+  src: url('../fonts/OpenSans.woff') format('woff');
+       
+  font-weight: normal;
+  font-style: normal;}
+
 html, body{
 
     height:100%;
 	background-color: white;
 }
 
-*{
- padding: 0;
- margin: 0;
- border: 0;
 
-}
+
 
 @media (min-width: 900px) {
 
@@ -27,6 +31,11 @@ html, body{
 		width:1200px;
 		margin: 0 auto;
 		display:flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
 		
 		
 	}
@@ -34,11 +43,31 @@ html, body{
 		border: 5px solid blue;
 		
 	}
-	.navbar{
-		
+	.wrapper .navbar{
+		font-size:15pt;
 		justify-content: space-between;
 		height: 65px;
 
+	}
+	.navbar .logo{
+		font-family: 'Webfont';
+  		font-size: 25pt;
+  		margin-left:100px;
+  		margin-bottom: auto;	
+  	}
+	.navbar > div {
+		margin:0;
+		padding:0;
+		border:0; 
+	}
+	.menu ul{
+		 list-style: none;
+ 		 margin: 0;
+  		 padding: 0;
+	}
+	.navbar .menu ul li{
+		float:left;
+		
 	}
 	.wrapper .banner{
 		
