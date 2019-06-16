@@ -1,19 +1,46 @@
-.body{	width:2532px; }
+html, body{
+
+    height:100%;
+	background-color: white;
+}
+
+*{
+ padding: 0;
+ margin: 0;
+ border: 0;
+
+}
 
 @media (min-width: 900px) {
 
-    .container{
-
+    .wrapper{
+		margin: 0 auto;
         max-width: 1920px;
 		min-width: 1200px;
-		 margin: 0 auto;
-		 background-color: red;
-
-  		max-height: 100%;
+		display: flex;
+		border:5px solid red;
+		max-height: 100%;
+		flex-wrap: wrap;
+	}
+	.wrapper > div{
+		border:5px solid green;
+		width:1200px;
+		margin: 0 auto;
+		display:flex;
+		
+	}
+	.wrapper > div >div {
+		border: 5px solid blue;
+		
+	}
+	.navbar{
+		justify-content: space-between;
 
 	}
-	.container .top{
-		background-color: white;
+	body{
+		margin:0;
+		padding:0;
+		border:0; 
 	}
 
 }
