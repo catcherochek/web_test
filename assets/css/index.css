@@ -32,7 +32,9 @@ html, body {
   }
 
   .navbar {
+  	margin-left:100px;
     justify-content: space-between;
+    height: 65px;
   }
 
   .clear {
