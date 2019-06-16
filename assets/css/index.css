@@ -29,15 +29,13 @@ html, body {
 
   .wrapper > div > div {
     border: 5px solid blue;
-
-    
   }
 
   .navbar {
     justify-content: space-between;
   }
 
-  body {
+  .clear {
     margin: 0;
     padding: 0;
     border: 0;
