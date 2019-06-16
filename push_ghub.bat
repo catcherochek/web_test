@@ -1,5 +1,4 @@
 
-cd e:/klim/work/ps/html/
 
 git checkout master
 
