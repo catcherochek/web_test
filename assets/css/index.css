@@ -29,6 +29,8 @@ html, body {
 
   .wrapper > div > div {
     border: 5px solid blue;
+
+    
   }
 
   .navbar {
