@@ -1,5 +1,14 @@
 .body {
-  width: 20px;
+  width: 2532px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+    max-height: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
