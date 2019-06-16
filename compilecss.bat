@@ -1,0 +1,1 @@
+sass --watch html/assets/sass/index.scss:html/assets/css/index.css
