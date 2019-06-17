@@ -52,19 +52,55 @@ html, body {
   .navbar > div {
     margin: 0;
     padding: 0;
-    border: 0;
+    list-style: none;
   }
 
-  .menu ul {
-    list-style: none;
+  /* menu  block */
+  .navbar .menu {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 
-  .navbar .menu ul li {
-    float: left;
+  .navbar .menu > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
   }
 
+  .navbar .menu > ul li a {
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu > ul li a:hover {
+    background-color: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu li ul {
+    position: absolute;
+    display: none;
+  }
+
+  .navbar .menu li:hover ul {
+    position: absolute;
+    display: block;
+  }
+
+  .navbar .menu > ul li li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* !menu block*/
   .clear {
     margin: 0;
     padding: 0;
