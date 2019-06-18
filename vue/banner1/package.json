@@ -1,8 +1,8 @@
 {
-  "name": "banner",
+  "name": "banner1",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "D00de",
+  "author": "d00de",
   "license": "MIT",
   "private": true,
   "scripts": {
