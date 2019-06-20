@@ -61,6 +61,7 @@ html, body {
     margin-right: 80px;
     top: 50%;
     list-style: none;
+    cursor: pointer;
   }
 
   .navbar .menu > ul {
@@ -98,12 +99,14 @@ html, body {
   }
 
   .navbar .menu ul li ul {
+    min-width: 100px;
     position: absolute;
     transition: all 2s ease;
-    opacity: 0;
     margin: 0;
     padding: 0;
     list-style: none;
+    opacity: 0;
+    z-index: -1;
   }
 
   .navbar .menu ul li ul {
@@ -116,11 +119,12 @@ html, body {
   }
 
   .navbar .menu ul li:hover ul {
-    opacity: 1;
-    position: absolute;
     display: block;
+    visibility: visible;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
     transition: all 2s ease;
-    min-width: 100px;
   }
 
   .navbar .menu > ul > li > a > .fa-angle-down {
